@@ -1,36 +1,30 @@
 # React Netflix Clone App
 
-This project was inpired in Netflix interface and was reproduced for study purposes. Also, it was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+Esse Projeto foi feito com base na interface do Netflix apenas como base para estudo. 
 
-# Test yourself
+# Teste você mesmo
 
-Follow these steps
+Siga esses passos
 
 * `git clone https://github.com/marquesm91/react-netflix`
-* `npm install` or `yarn`
-* `npm run start` or `yarn start`
+* `npm install` ou `yarn`
+* `npm run start` ou `yarn start`
 
-The application will open your default browser on https://localhost:3000/
+Esta Aplicação irá abrir no seu Navegador padrão pelo link https://localhost:3000/
 
-# About the application
+# Sobre a Aplicação
 
-Besides the default installation with `create-react-app`, two 3rd party library was added:
+Depois da criação do Projeto com `create-react-app`, adicionei 2 Libs para React:
 
-* `react-router-dom` found [here](https://github.com/ReactTraining/react-router).
-* `react-items-carousel` found [here](https://github.com/bitriddler/react-items-carousel).
+* `react-router-dom` encontrada [aqui](https://github.com/ReactTraining/react-router).
+* `react-items-carousel` encontrada [aqui](https://github.com/bitriddler/react-items-carousel).
 
-The first one was used to user have a better experience with url navigation and keep react application sync'd. The other one was to ease the use of horizontal carousel like Netflix.
+O primeiro foi usado para que o usuário tenha uma melhor experiência com a navegação de URL e mantenha o aplicativo de reação sincronizado. O outro era facilitar o uso de carrossel horizontal como o Netflix.
 
 # Features
 
-* The application consumes the [MovieDB API](https://www.themoviedb.org/documentation/api) to fill the application with real data.
-* The search input on navbar has a nice translate style like netflix and can search for movie names and movies related to a famous person. eg. search for Dory and search for Chris Evans.
-* When you search for something and hit enter you will be redirect to Search page only if your results have at least one movie.
-* For each Movie Card you can add to your favorite list and it was accessible in Minha Lista on navbar. If the movie already exists on your favorite list a check icon will be visible until you choose to remove it.
+* A Aplicação consome a [MovieDB API](https://www.themoviedb.org/documentation/api) em tempo real.
+* A entrada de pesquisa na navbar tem um bom estilo de tradução, como o netflix, e pode pesquisar nomes de filmes e filmes relacionados a uma pessoa famosa. por exemplo. procurar Dory e procurar Chris Evans.
+* Quando você procurar algo e pressionar Enter, você será redirecionado para a página de Pesquisa apenas se seus resultados tiverem pelo menos um filme.
+* Para cada cartão de filme, você pode adicionar à sua lista de favoritos e ela estava acessível na Minha Lista na barra de navegação. Se o filme já existir na sua lista de favoritos, um ícone de verificação ficará visível até você optar por removê-lo.
 
-# Ways to improve this project
-
-* Make use of Redux to a better state management
-* Implement another carousel to have a better way to apply style
-* Improve responsiveness to be mobile friendly
-* Handle errors and show a friendly message when search results are null
