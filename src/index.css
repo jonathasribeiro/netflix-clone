@@ -1,5 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-netflix: #e50914;
+  --color-surface: #141414;
+  --color-panel: #181818;
+}
+
 body {
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  background: var(--color-surface);
+  color: white;
+  font-family: Inter, system-ui, sans-serif;
 }
